@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(73, 70, 70);
+}
+
+.slide {
+  /*background: linear-gradient(to bottom, #3498db, #9b59b6); color: #333;*/
+  background-color:rgb(205, 204, 204);
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+.icon{
+  color: rgb(73, 70, 70);
+}

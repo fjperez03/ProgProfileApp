@@ -1,0 +1,28 @@
+
+    .logo {
+      display: block; /* Mostrar la imagen como bloque en tamaños más grandes */
+      max-width: 100%;
+      height: auto;
+    }
+    
+    @media (max-width: 768px) {
+      .logo {
+        display: none; /* Ocultar la imagen en tamaños de pantalla más pequeños (modo celular) */
+      }
+    }
+
+    .nav-link.active {
+      background-color: rgb(138, 130, 130); /* Color de fondo */
+      color: #fff; /* Color del texto */
+  } 
+  
+    #navbarNav ul li a {
+      font-weight: bold; 
+      font-size: 18px;
+    }
+    
+    #navbarNav ul li a:hover {
+      background-color: rgb(85, 80, 80);
+      color: white;
+      }
+    

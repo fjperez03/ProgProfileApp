@@ -1,0 +1,82 @@
+  <div class="row slide">
+    <div class="col-sm-4" style="padding: 0;">
+      <app-sidebar></app-sidebar>
+    </div>
+    <div id="container" class="col-sm-8" style="height: 68vh; overflow-y: scroll;">
+      <main>
+          
+            
+
+<!--
+            <div class="row">
+              <div class="col-sm-4">
+                <h2>About Me</h2>
+                <h5>Photo of me:</h5>
+                <div class="fakeimg">Fake Image</div>
+                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+                <h3 class="mt-4">Some Links</h3>
+                <p>Lorem ipsum dolor sit ame.</p>
+                <ul class="nav nav-pills flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                  </li>
+                </ul>
+                <hr class="d-sm-none">
+              </div>
+              <div class="col-sm-8">
+                <h2>TITLE HEADING</h2>
+                <h5>Title description, Dec 7, 2020</h5>
+                <div class="fakeimg">Fake Image</div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          
+                <h2 class="mt-5">TITLE HEADING</h2>
+                <h5>Title description, Sep 2, 2020</h5>
+                <div class="fakeimg">Fake Image</div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              </div>
+            </div>
+-->            
+
+          <section id="about" style="height: auto;">
+            <h2 class="p-3">About me</h2>
+            <div class="container-fluid p-3">
+                <p class="mb-5">{{AboutMe}}</p>
+
+                <div class="row">
+                  <div  class="col-sm-1"><a href="#" class="fab fa-linkedin fa-3x" href="https://www.linkedin.com/in/frank-javier-p%C3%A9rez-ba24625a/" target="_blank"></a></div>
+                  <div  class="col-sm-1"><a href="#" class="fab fa-github fa-3x" href="https://github.com/fjperez03" target="_blank"></a></div>
+                </div>
+              </div>
+          </section>
+          <section id="works" style="height: auto;">
+            <h2 class="p-3">Work Experience</h2>
+            <app-timeline activity="work"></app-timeline>
+          </section>
+          <section id="educations" style="height: auto;">
+            <h2 class="p-3">Education</h2>
+            <app-timeline activity="education"></app-timeline>
+          </section>
+          <section id="skills" class="d-flex flex-column align-items-left" style="height: inherit;">
+              <h2 class="p-3">Skills</h2>
+              <div class="col-sm-7 container-fluid">
+                <app-polar-area-chart></app-polar-area-chart>
+              </div>
+          </section>
+          <section id="languages" style="height: inherit;">
+              <h2 class="p-3">Languages</h2>
+              <app-css-chart></app-css-chart>
+          </section>
+      </main>
+    </div>
+  </div>

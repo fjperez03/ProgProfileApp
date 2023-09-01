@@ -1,0 +1,6 @@
+<div class="row">
+    <div class="col-sm-2" *ngFor="let chart of charts">
+        <h6 class="mt-4 mx-4">{{chart.chartTitle}}</h6>
+        <div [attr.data-label]="chart.percent + '%'" class="css-bar css-bar-{{chart.percent}} css-bar-lg css-bar-default"></div>
+    </div>
+</div>
